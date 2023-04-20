@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form>
+       <label for="fname">First Name:</label>
+       <input type="text" name="fname" id="firstname" autofocus placeholder="First Name">
+       <br>
+        <label for="Sname">Surname:</label>
+        <input type="text" name="lname" id="lastname" >
+        <br>
+        <label for="address">Address</label>
+        <textarea name="address" id="address" cols="30" rows="10">
+
+        </textarea>
+        <br>
+        Drink:
+        <input type="radio" checked name="drink" value="tea">Tea
+        <input type="radio" name="drink" value="coffee">Coffee
+        <input type="radio" name="drink" value="choc">Choc <br>
+
+        <input type="checkbox" name="sugar" value="yes">Sugar
+        <input type="checkbox" name="milk" value="yes">Milk <br>
+
+
+        <select name="course" id="course" size="2">
+            <option value="#" disabled selected>Select One.....</option>
+            <option value="HTML">HTML</option>
+            <option value="JScript">JavaScript</option>
+        </select>
+
+        <input type="number" step="2" min="1" max="9999" value="5" maxlength="4"> <br>
+        Email
+        <input type="email"> <br>
+        WEBSITE
+        <input type="url"> <br>
+
+        <input type="range" name="r" min="1" max="12" value="3" > <br>
+
+        <input type="date"> <br>
+        <input type="color"> <br>
+        <input type="text" pattern="[a-z]{13,16}"> <br>
+
+        <input list="cars">
+        <datalist id="cars">
+
+            <option >bmw</option>
+            <option >skoda</option>
+            <option >seat</option>
+            <option >buick</option>
+            <option >bugatti</option>
+
+        </datalist>
+
+        <input type="submit">
+
+        <fieldset>
+            <legend>Your Details</legend>
+            first Name:
+            <input type="text">
+        </fieldset>
+
+        <fieldset>
+            <legend>Your Car</legend>
+            Make:
+            <input type="text">
+        </fieldset>
+
+
+
+    </form>
+
+</body>
+</html>
