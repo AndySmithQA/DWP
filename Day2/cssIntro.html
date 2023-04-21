@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title>
+    <style>
+
+        .hyper{
+            background-color: blue;
+            color: white;
+        }
+
+        .hyper:hover{
+            background-color: white;
+            color: blue;
+        }
+   
+        a[href^="http:"] {
+            color: red;
+        }
+
+        img[src$=".jpg"] {
+            color: red;
+        }
+
+
+    </style>
+
+
+</head>
+<body>
+
+    <p class="hyper">This is a link</p>
+
+    <a href="http://www.google.com">Google</a> <br>
+    <a href="https://www.google.com">Google Secure</a>
+
+    <img src="dog.jpg" alt="">
+    <img src="dog.png" alt="">
+</body>
+</html>
