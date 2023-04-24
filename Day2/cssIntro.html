@@ -8,6 +8,10 @@
     <title>Document</title>
     <style>
 
+        div {
+            background-color: aquamarine;
+            height: 800px;
+        }
         .hyper{
             background-color: blue;
             color: white;
@@ -26,6 +30,13 @@
             color: red;
         }
 
+        .nested{
+            background-color: black;
+            width: 200px;
+            margin: 10px;
+            color: white;
+            padding: 10px;
+        }
 
     </style>
 
@@ -33,12 +44,17 @@
 </head>
 <body>
 
-    <p class="hyper">This is a link</p>
 
-    <a href="http://www.google.com">Google</a> <br>
-    <a href="https://www.google.com">Google Secure</a>
 
-    <img src="dog.jpg" alt="">
-    <img src="dog.png" alt="">
+
+    <div class="styled">This is a div
+      <div class="nested">
+        This is a nested Div
+      </div>
+    </div>
+
+   
+
+
 </body>
 </html>
